@@ -19,7 +19,6 @@ pipeline {
         stage('Test') {
             steps {
                 sh "pytest"
-                
             }
         }    
         stage('Deployment') {
@@ -31,8 +30,6 @@ pipeline {
                 echo "Running Deployment"
                 
             }
-        } 
-        
-            
+        }        
     }
 }
