@@ -6,7 +6,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/luckyehizefe1/course-jenkins-project', branch: 'main'
+                git url: 'https://github.com/luckyehizefe1/course-jenkins-project.git', branch: 'main'
                 sh "ls -ltr"
             }
         }
